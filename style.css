@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&display=swap');
+body {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+.zone {
+  color: #363E3E;
+  font-size: 2em;
+}
+.logo {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+/*
+Navbar
+*/
+header nav {
+  display: block;
+  background-color: #33B7BC;
+}
+header {
+  min-height: 100vh;
+  background: url(./hero-bg.jpg) center/cover no-repeat;
+}
+.wrap {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 60px;
+  align-items: center;
+}
+.nav-items {
+  margin-left: auto;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 10px
+}
+.nav-items {
+  height: auto !important;
+}
+.links {
+  display: flex;
+  font-weight: 300;
+  font-size: 0.7em;
+}
+.hero {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.container h1 {
+  color: #363E3E;
+}
+/*
+Body
+*/
+.main-wrap {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+}
+.elements {
+  margin: 20px;
+  padding: 0 20px 20px;
+}
+.elements h2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.elements p {
+ font-size: 0.7rem;
+ font-weight: 300;
+}
+button {
+  cursor: pointer;
+  background: #33B7BC;
+  border: 0;
+  border-radius: 3px;
+  font-size: 1rem;
+  color: white;
+  padding: 10px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  width: 60%;
+}
+button:hover {
+  background: #363E3E;
+}
+/*
+Footer
+*/
+footer {
+  background-color: #363E3E;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom:30px;
+  align-items: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+.copyright {
+  font-weight: 200;
+  font-size: 0.7em;
+  color: gray;
+}
+.footertext {
+  font-weight: 300;
+  font-size: 0.7em;
+  color: white;
+  padding: 20px;
+}
+.footerwrap {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 160px;
+}
