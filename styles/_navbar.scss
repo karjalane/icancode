@@ -1,0 +1,43 @@
+@import './variables', './functions';
+/*
+Navbar
+*/
+header {
+  min-height: 100vh;
+  background: url(./hero-bg.jpg) center/cover no-repeat;
+  nav {
+    display: block;
+    background-color: $primaryLight;
+  }
+  a {
+    color: $mainTextColor;
+    text-decoration: none;
+  }
+}
+.wrap {
+  @include wrapper(60px);
+}
+.nav-items {
+  margin-left: auto;
+  height: auto !important;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 10px
+}
+.links {
+  display: flex;
+  font-weight: 300;
+  font-size: 0.7em;
+}
+.hero {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.container h1 {
+  color: $primaryDark;
+}

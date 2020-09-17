@@ -1,0 +1,34 @@
+@import './variables', './functions';
+/*
+Body
+*/
+.main-wrap {
+  @include wrapper(200px);
+}
+.elements {
+  margin: 20px;
+  padding: 0 20px 20px;
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  p {
+    font-size: 0.7rem;
+    font-weight: 300;
+   }
+}
+button {
+  cursor: pointer;
+  background: $primaryLight;
+  border: 0;
+  border-radius: 3px;
+  font-size: 1rem;
+  color: $mainTextColor;
+  padding: 10px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  width: 60%;
+  &:hover {
+    background: $primaryDark;
+  }
+}

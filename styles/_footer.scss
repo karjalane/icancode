@@ -1,0 +1,32 @@
+@import './variables';
+/*
+Footer
+*/
+footer {
+  background-color: $primaryDark;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom:30px;
+  align-items: center;
+  a {
+    color: $mainTextColor;
+    text-decoration: none;
+  }
+}
+.copyright {
+  font-weight: 200;
+  font-size: 0.7em;
+  color: gray;
+}
+.footertext {
+  font-weight: 300;
+  font-size: 0.7em;
+  color: $mainTextColor;
+  padding: 20px;
+}
+.footerwrap {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 160px;
+}

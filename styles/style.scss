@@ -1,0 +1,16 @@
+@import './navbar', './body', './footer';
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&display=swap');
+
+body {
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+.zone {
+  color: $primaryDark;
+  font-size: 2em;
+}
+.logo {
+  font-weight: 800;
+  text-transform: uppercase;
+}
